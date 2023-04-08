@@ -17,13 +17,17 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
+	background-color: #D5E1EF;
 	line-height: 1;
 }
 ol, ul {
@@ -40,4 +44,48 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.container {
+	height: 497px;
+	width: 329px;
+	margin: 152px auto;
+	padding: 16px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.image-container {
+	background-image: url(/img/image-qr-code.png);
+	background-size: 100%;
+	height: 288px;
+	width: 288px;
+	border-image-repeat: no-repeat;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+h2 {
+	color: hsl(218, 44%, 22%);
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	margin: 30px auto 0;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 700;
+	height: 49px;
+	width: 250px;
+
+}
+
+p {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	width: 260px;
+	margin: 0 auto;
+	margin-top: 25px;
+	color: hsl(220, 15%, 55%);
 }
