@@ -56,7 +56,7 @@ table {
 }
 
 .image-container {
-	background-image: url(/img/image-qr-code.png);
+	background-image: url(./img/image-qr-code.png);
 	background-size: 100%;
 	height: 288px;
 	width: 288px;
